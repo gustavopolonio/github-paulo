@@ -1,0 +1,65 @@
+/* https://www.figma.com/file/TIgXMF686QfKatRaJmph96/GitHub-Blog-(Community)?type=design&node-id=0-1&mode=design&t=ZYyXmAb7JuPiIx6L-0 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+  background-color: #0B1B2B;
+  height: 200px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.imagem_logo {
+  width: 112px;
+  height: auto;
+  margin-top: -50px;
+}
+
+.corpo_site {
+  /* background-color: red; */
+  margin-top: -50px;
+}
+
+.perfil_container {
+  background-color: #1C2F41;
+  color: #fff;
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  gap: 28px;
+  padding: 28px;
+  border-radius: 8px;
+  /* justify-content: center; */
+}
+
+.usuario_imagem {
+  /* margin-right: 38px; */
+}
+
+.direita {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.descricao {
+  margin: 16px 0;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
